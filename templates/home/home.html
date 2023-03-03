@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% load navmenu_tags %}
+    {% nav_menu menu_name %}
+    <h1>Welcome to My Website!</h1>
+    <br><br><br><br><br>
+    <p>This is the {{ page_indicator }} page</p>
+{% endblock %}
+
